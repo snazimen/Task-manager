@@ -1,11 +1,14 @@
 import './nullstyle.css'
-
+import {BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      asdasd
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        
+      </div>
+    </BrowserRouter>
+
   );
 }
 
